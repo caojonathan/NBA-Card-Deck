@@ -1,2 +1,2 @@
 # NBA-Card-Pack
-Generates a random NBA Player's Statistics (1979-Current)
+Generates a pack of NBA Cards with Player Statistics. (1979 to Present)
