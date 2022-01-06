@@ -1,5 +1,17 @@
+body{
+    background-image: url("wood_floors2.jpg");
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 #root {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   
@@ -9,10 +21,19 @@
   }
   
   .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: 1rem;
     border: 1px solid gray;
+    border-radius: 20px;
+    padding: 40px 0;
+    background-image: url(nbalogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
   }
-  
+
   @media screen and (min-width: 600px) {
     .card {
       flex: 1 1 calc(50% - 2rem);
