@@ -1,4 +1,4 @@
-# NBA-Card-Pack
+## NBA-Card-Pack
 Generates a pack of NBA Cards with the player's physical stats and the team they last played for. 
 
 Refresh the page to test your luck and try to get your favourite player!
