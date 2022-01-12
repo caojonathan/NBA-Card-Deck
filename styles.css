@@ -8,12 +8,18 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .icon{
     height: 100px;
     width: 100px;
     padding-bottom: 30px;
+    transition: all 1s ease-in-out;
+}
+
+.icon:hover{
+  transform:scale(1.4) rotate(360deg);
 }
 img{
     max-width: 100%;
