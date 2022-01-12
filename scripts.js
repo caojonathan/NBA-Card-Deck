@@ -5,10 +5,6 @@ function getRandomInt(min, max) {
   }
 
 
-
-
-
-
 const app = document.getElementById('root')
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
@@ -22,18 +18,23 @@ for(let i =0; i < 6; i++){
 async function make_Card() {
     
 
-    var player_id = getRandomInt(0, 500)
+    var player_id = getRandomInt(0, 600)
     const response = await fetch(`https://www.balldontlie.io/api/v1/players/${player_id}`)
     const data = await response.json()
 
     const card = document.createElement('div')
     card.setAttribute('class', 'card')
 
+    const stats = document.createElement('div')
+    stats.setAttribute('class', 'stats')
+
+
     const h1 = document.createElement('h1')
      h1.textContent = data.first_name
 
     const h2 = document.createElement('h2')
-    h2.textContent = data.last_name
+    h2.textContent = h2.textContent = data.last_name
+        
 
     const h3 = document.createElement('h3')
      if(data.height_feet != null){
@@ -56,11 +57,14 @@ async function make_Card() {
    
 
     container.appendChild(card)
+
     card.appendChild(h1)
     card.appendChild(h2)
-    card.appendChild(h3)
-    card.appendChild(h4)
-    card.appendChild(h5)
+    stats.appendChild(h3)
+    stats.appendChild(h4)
+    stats.appendChild(h5) 
+    card.appendChild(stats)
+    
 }
 
 
