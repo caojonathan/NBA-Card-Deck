@@ -3,7 +3,7 @@
 
 ### Click on Crying Jordan to test your luck on a new pack!
 
-### Players are generated from a database consisting of NBA players from 1979-Present.
+### Players are fetched from an API. The database consists of NBA players from 1979-Present.
 
 ### TRY IT OUT: https://caojonathan.github.io/NBA-Card-Pack/
 
