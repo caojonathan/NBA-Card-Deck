@@ -7,7 +7,8 @@
 
 ### TRY IT OUT: https://caojonathan.github.io/NBA-Card-Pack/
 
-![image](https://user-images.githubusercontent.com/69479285/149169104-472a3498-660a-4db9-9710-f77d95e3b0eb.png)
+![image](https://user-images.githubusercontent.com/69479285/149169265-554b1547-0b92-4387-b740-6576e3f43122.png)
+
 
 
 
